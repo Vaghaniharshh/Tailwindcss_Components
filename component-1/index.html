@@ -4,33 +4,20 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Cards</title>
+    <title>Black Friday</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-white p-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<body class="relative min-h-screen flex items-center justify-center overflow-hidden">
 
+    <div style="background-image: url(/assets/black-friday.png);"
+        class="absolute inset-0 bg-cover bg-center bg-no-repeat filter blur-sm brightness-75 -z-10"></div>
+    <div
+        class="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8 bg-white/60 backdrop-blur-sm rounded-lg shadow-lg">
 
         <div class="bg-white rounded-lg overflow-hidden shadow-sm border">
             <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740"
-                alt="Product" class="w-full h-100 object-cover object-center" />
-            <div class="p-4">
-                <h3 class="text-gray-700 text-base font-medium mb-2">Startup Unicorns T-Shirt</h3>
-                <div class="flex items-center justify-between">
-                    <div>
-                        <span class="text-lg font-semibold text-gray-800">$72</span>
-                        <span class="line-through text-gray-400 ml-2">$96</span>
-                    </div>
-                    <button
-                        class="bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded">Buy</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="bg-white rounded-lg overflow-hidden shadow-sm border">
-            <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740" alt="Product" class="w-full h-100 object-cover" />
+                alt="Product" class="w-full h-48 object-cover object-center" />
             <div class="p-4">
                 <h3 class="text-gray-700 text-base font-medium mb-2">Startup Unicorns T-Shirt</h3>
                 <div class="flex items-center justify-between">
@@ -45,7 +32,8 @@
         </div>
 
         <div class="bg-white rounded-lg overflow-hidden shadow-sm border">
-            <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740" alt="Product" class="w-full h-100 object-cover" />
+            <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740"
+                alt="Product" class="w-full h-48 object-cover object-center" />
             <div class="p-4">
                 <h3 class="text-gray-700 text-base font-medium mb-2">Startup Unicorns T-Shirt</h3>
                 <div class="flex items-center justify-between">
@@ -60,7 +48,8 @@
         </div>
 
         <div class="bg-white rounded-lg overflow-hidden shadow-sm border">
-            <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740" alt="Product" class="w-full h-100 object-cover" />
+            <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740"
+                alt="Product" class="w-full h-48 object-cover object-center" />
             <div class="p-4">
                 <h3 class="text-gray-700 text-base font-medium mb-2">Startup Unicorns T-Shirt</h3>
                 <div class="flex items-center justify-between">
@@ -73,6 +62,25 @@
                 </div>
             </div>
         </div>
+
+        <div class="bg-white rounded-lg overflow-hidden shadow-sm border">
+            <img src="https://img.freepik.com/free-photo/headphones-with-music-cds_23-2148133615.jpg?semt=ais_hybrid&w=740"
+                alt="Product" class="w-full h-48 object-cover object-center" />
+            <div class="p-4">
+                <h3 class="text-gray-700 text-base font-medium mb-2">Startup Unicorns T-Shirt</h3>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <span class="text-lg font-semibold text-gray-800">$72</span>
+                        <span class="line-through text-gray-400 ml-2">$96</span>
+                    </div>
+                    <button
+                        class="bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium px-4 py-1 rounded">Buy</button>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 </body>
 
